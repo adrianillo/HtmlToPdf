@@ -1,4 +1,4 @@
 HtmlToPdf
 =========
 
-Convert html to pdf
+Convert html to pdf.
