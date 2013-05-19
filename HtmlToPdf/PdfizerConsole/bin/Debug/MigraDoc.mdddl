@@ -1,0 +1,1205 @@
+\document
+{
+  \styles
+  {
+    Heading1
+    {
+      ParagraphFormat
+      {
+        OutlineLevel = Level1
+      }
+    }
+
+    Heading2
+    {
+      ParagraphFormat
+      {
+        OutlineLevel = Level2
+      }
+    }
+
+    Heading3
+    {
+      ParagraphFormat
+      {
+        OutlineLevel = Level3
+      }
+    }
+
+    Heading4
+    {
+      ParagraphFormat
+      {
+        OutlineLevel = Level4
+      }
+    }
+
+    Heading5
+    {
+      ParagraphFormat
+      {
+        OutlineLevel = Level5
+      }
+    }
+
+    Heading6
+    {
+      ParagraphFormat
+      {
+        OutlineLevel = Level6
+      }
+    }
+
+    Heading7
+    {
+      ParagraphFormat
+      {
+        OutlineLevel = Level7
+      }
+    }
+
+    Heading8
+    {
+      ParagraphFormat
+      {
+        OutlineLevel = Level8
+      }
+    }
+
+    Heading9
+    {
+      ParagraphFormat
+      {
+        OutlineLevel = Level9
+      }
+    }
+
+    InvalidStyleName
+    {
+      Font
+      {
+        Bold = true
+        Underline = Dash
+        Color = Lime
+      }
+    }
+  }
+  \section
+  {
+    \paragraph
+    {
+      Section 1
+    }
+    \paragraph
+    {
+    }
+    \paragraph
+    [
+      Format
+      {
+        Font
+        {
+          Name = "Times New Roman"
+          Size = 20
+          Color = Red
+        }
+      }
+    ]
+    {
+      \font[Name = "Times New Roman"
+      Size = 20
+      Color = Red
+      ]{Example 1}\linebreak
+    }
+    \paragraph
+    {
+    }
+    \paragraph
+    {
+    }
+    \table
+    [
+      Format
+      {
+        Font
+        {
+          Italic = true
+          Underline = Single
+          Color = RGB(11,56,97)
+        }
+      }
+      Borders
+      {
+        Style = Single
+        Width = 1
+        Color = RGB(102,0,51)
+      }
+      Shading
+      {
+        Color = RGB(204,51,102)
+      }
+    ]
+    {
+      \columns
+      {
+        \column
+        [
+          Width = 280
+        ]
+        \column
+        [
+          Width = 60
+        ]
+      }
+      \rows
+      {
+        \row
+        [
+          Height = 225
+        ]
+        {
+          \cell
+          {
+            \paragraph
+            {
+            }
+            \textframe
+            {
+              \table
+              [
+                Borders
+                {
+                  Width = 1
+                }
+                Shading
+                {
+                  Color = Yellow
+                }
+              ]
+              {
+                \columns
+                {
+                  \column
+                  [
+                    Width = 125
+                  ]
+                  \column
+                  [
+                    Width = 125
+                  ]
+                }
+                \rows
+                {
+                  \row
+                  [
+                    Height = 200
+                  ]
+                  {
+                    \cell
+                    [
+                      Format
+                      {
+                        Font
+                        {
+                          Size = 12
+                          Color = Green
+                        }
+                        LeftIndent = 10
+                        RightIndent = 30
+                        SpaceBefore = 40
+                        SpaceAfter = 20
+                      }
+                    ]
+                    {
+                       Table in cell: Cell one\linebreak
+                    }
+                    \cell
+                    {
+                      \paragraph
+                      {
+                         Table in cell: Cell two
+                      }
+                      \textframe
+                      [
+                        WrapFormat
+                        {
+                          Style = Through
+                        }
+                      ]
+                      {
+                        \image("D:\\p\\HtmlToPdf\\PdfizerConsole\\bin\\Debug\\tem\\XCGEHFAFRWSGMAWE.jpg")
+                        [
+                          Height = 80
+                          Width = 80
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+              \paragraph
+              {
+              }
+            }
+          }
+          \cell
+          {
+            1º \bold{row} 2º col
+          }
+        }
+        \row
+        [
+          Height = 42
+        ]
+        {
+          \cell
+          {
+            2º \fontsize(18){row}\fontcolor(Blue){1º} col
+          }
+          \cell
+          {
+            2º row 2 col
+          }
+        }
+      }
+    }
+    \paragraph
+    {
+      \font[Size = 22
+      Bold = true
+      ]{h1 title}\fontsize(18){ h2 title}
+    }
+    \paragraph
+    {
+      \linebreak
+    }
+    \paragraph
+    {
+      \fontsize(16){ h3 title}\fontsize(16){ h3(2) title}\fontsize(14){ h4 title}\fontsize(14){ h4(2) title}\fontsize(12){ h5 title}\fontsize(12){ h5(2) title}\fontsize(10){ h6 title}\fontsize(10){ h6(2) title
+      }\fontsize(10){ h6(3) title}\fontsize(18){ h2(2) title}\fontsize(16){ h3}title\font[Size = 12
+      Color = RGB(78,230,54)
+      ]{in  div}\linebreak
+      \linebreak
+      \fontsize(16){}\fontsize(14){ h4 title}\fontsize(12){ h5 title}
+    }
+    \paragraph
+    {
+      \linebreak
+    }
+    \paragraph
+    {
+      \fontsize(10){ h6 title}\font[Size = 22
+      Bold = true
+      ]{h1 title 6}\fontsize(10){}
+    }
+    \paragraph
+    [
+      Format
+      {
+        Font
+        {
+          Size = 12
+          Italic = true
+          Underline = Single
+          Color = RGB(11,56,97)
+        }
+        Borders
+        {
+          Style = Single
+          Width = 1
+          Color = RGB(102,0,51)
+        }
+      }
+    ]
+    {
+      \font[Size = 12
+      Italic = true
+      Underline = Single
+      Color = RGB(11,56,97)
+      ]{p paragraph}\linebreak
+    }
+    \paragraph
+    {
+      pre paragraph
+    }
+    \paragraph
+    [
+      Format
+      {
+        Font
+        {
+          Size = 20
+          Color = Blue
+        }
+      }
+    ]
+    {
+      \font[Size = 20
+      Color = Blue
+      ]{div paragraph (class=b)}\linebreak
+    }
+    \paragraph
+    {
+    }
+    \paragraph
+    [
+      Format
+      {
+        Alignment = Left
+      }
+    ]
+    {
+      left aligned\linebreak
+    }
+    \paragraph
+    {
+    }
+    \paragraph
+    [
+      Format
+      {
+        Alignment = Right
+      }
+    ]
+    {
+      right aligned\linebreak
+    }
+    \paragraph
+    {
+    }
+    \paragraph
+    [
+      Format
+      {
+        Font
+        {
+          Color = Blue
+        }
+        Alignment = Center
+      }
+    ]
+    {
+      \fontcolor(Blue){centered}\linebreak
+    }
+    \paragraph
+    {
+    }
+    \paragraph
+    [
+      Format
+      {
+        Alignment = Right
+      }
+    ]
+    {
+      paragraph with \bold{bold (b)} elements\linebreak
+    }
+    \paragraph
+    {
+    }
+    \paragraph
+    [
+      Format
+      {
+        Font
+        {
+          Name = "Times New Roman"
+          Size = 20
+          Color = Red
+        }
+      }
+    ]
+    {
+      \font[Name = "Times New Roman"
+      Size = 20
+      Color = Red
+      ]{paragraph }\bold{with}\font[Name = "Times New Roman"
+      Size = 20
+      Color = Red
+      ]{ emphasized (em) elements}\linebreak
+    }
+    \paragraph
+    {
+    }
+    \paragraph
+    [
+      Format
+      {
+        Font
+        {
+          Color = Green
+        }
+      }
+    ]
+    {
+      \fontcolor(Green){paragraph with }\fontcolor(Green){ elements}\linebreak
+    }
+    \paragraph
+    {
+      typewriter (tt)
+    }
+    \paragraph
+    [
+      Format
+      {
+        Font
+        {
+          Size = 12
+          Color = Yellow
+        }
+      }
+    ]
+    {
+      \font[Size = 12
+      Color = Yellow
+      ]{paragraph with }\font[Size = 12
+      Color = Yellow
+      ]{ elements}\linebreak
+    }
+    \paragraph
+    {
+      code (code)
+    }
+    \paragraph
+    {
+      paragraph with span elements (class = em)\linebreak
+    }
+    \paragraph
+    {
+    }
+    \paragraph
+    [
+      Format
+      {
+        Font
+        {
+          Size = 18
+          Italic = true
+          Underline = Single
+          Color = RGB(11,56,97)
+        }
+        LeftIndent = 80
+        SpaceBefore = 40
+        Borders
+        {
+          Style = Single
+          Width = 1
+          Color = RGB(102,0,51)
+        }
+      }
+    ]
+    {
+      \font[Size = 18
+      Italic = true
+      Underline = Single
+      Color = RGB(11,56,97)
+      ]{paragraph }\linebreak
+       par 2\linebreak
+      \font[Size = 18
+      Italic = true
+      Underline = Single
+      Color = RGB(11,56,97)
+      ]{ par 1-2 }\linebreak
+    }
+    \paragraph
+    {
+    }
+    \paragraph
+    [
+      Format
+      {
+        ListInfo.ListType = BulletList1
+        ListInfo.NumberPosition = 25
+        ListInfo.ContinuePreviousList = true
+      }
+    ]
+    {
+      Unordered 1
+    }
+    \paragraph
+    [
+      Format
+      {
+        ListInfo.ListType = BulletList1
+        ListInfo.NumberPosition = 25
+        ListInfo.ContinuePreviousList = true
+      }
+    ]
+    {
+      Unordered 2
+    }
+    \paragraph
+    {
+      \linebreak
+    }
+    \paragraph
+    [
+      Format
+      {
+        Font
+        {
+          Size = 18
+          Color = Green
+        }
+        LeftIndent = 80
+        SpaceBefore = 40
+        ListInfo.ListType = NumberList3
+        ListInfo.NumberPosition = 80
+        ListInfo.ContinuePreviousList = true
+      }
+    ]
+    {
+      Ordered 1
+    }
+    \paragraph
+    [
+      Format
+      {
+        Font
+        {
+          Size = 18
+          Color = Green
+        }
+        LeftIndent = 80
+        SpaceBefore = 40
+        ListInfo.ListType = NumberList3
+        ListInfo.NumberPosition = 80
+        ListInfo.ContinuePreviousList = true
+      }
+    ]
+    {
+      Ordered 2
+    }
+    \paragraph
+    {
+      \linebreak
+    }
+    \paragraph
+    [
+      Format
+      {
+        ListInfo.ListType = BulletList1
+        ListInfo.NumberPosition = 25
+        ListInfo.ContinuePreviousList = true
+      }
+    ]
+    {
+      listado \font[Superscript = true
+      ]{2}con\font[Subscript = true
+      ]{2} sub
+    }
+    \paragraph
+    [
+      Format
+      {
+        ListInfo.ListType = BulletList1
+        ListInfo.NumberPosition = 50
+        ListInfo.ContinuePreviousList = true
+      }
+    ]
+    {
+      sub-item 1
+    }
+    \paragraph
+    [
+      Format
+      {
+        ListInfo.ListType = BulletList1
+        ListInfo.NumberPosition = 50
+        ListInfo.ContinuePreviousList = true
+      }
+    ]
+    {
+      sub item 2
+    }
+    \paragraph
+    [
+      Format
+      {
+        ListInfo.ListType = BulletList1
+        ListInfo.NumberPosition = 25
+        ListInfo.ContinuePreviousList = true
+      }
+    ]
+    {
+      ordered item
+    }
+    \paragraph
+    {
+      \linebreak
+    }
+    \paragraph
+    {
+      \image("D:\\p\\HtmlToPdf\\PdfizerConsole\\bin\\Debug\\tem\\FUPWTLBXDYUVLBJF.png")
+      [
+        Height = 80
+        Width = 80
+        WrapFormat
+        {
+          DistanceTop = 40
+          DistanceLeft = 80
+        }
+        LineFormat
+        {
+          Width = 1
+          Color = RGB(102,0,51)
+        }
+      ]
+      \linebreak
+    }
+    \paragraph
+    {
+    }
+  }
+  \section
+  {
+    \paragraph
+    {
+      Section 2
+    }
+    \paragraph
+    {
+    }
+    \paragraph
+    [
+      Format
+      {
+        Font
+        {
+          Name = "Times New Roman"
+          Size = 20
+          Color = Red
+        }
+      }
+    ]
+    {
+      \font[Name = "Times New Roman"
+      Size = 20
+      Color = Red
+      ]{Example 1}\linebreak
+    }
+    \paragraph
+    {
+    }
+    \paragraph
+    {
+    }
+    \table
+    [
+      Format
+      {
+        Font
+        {
+          Italic = true
+          Underline = Single
+          Color = RGB(11,56,97)
+        }
+      }
+      Borders
+      {
+        Style = Single
+        Width = 1
+        Color = RGB(102,0,51)
+      }
+      Shading
+      {
+        Color = RGB(204,51,102)
+      }
+    ]
+    {
+      \columns
+      {
+        \column
+        [
+          Width = 280
+        ]
+        \column
+        [
+          Width = 60
+        ]
+      }
+      \rows
+      {
+        \row
+        [
+          Height = 225
+        ]
+        {
+          \cell
+          {
+            \paragraph
+            {
+            }
+            \textframe
+            {
+              \table
+              [
+                Borders
+                {
+                  Width = 1
+                }
+                Shading
+                {
+                  Color = Yellow
+                }
+              ]
+              {
+                \columns
+                {
+                  \column
+                  [
+                    Width = 125
+                  ]
+                  \column
+                  [
+                    Width = 125
+                  ]
+                }
+                \rows
+                {
+                  \row
+                  [
+                    Height = 200
+                  ]
+                  {
+                    \cell
+                    {
+                       Table in cell: Cell one\linebreak
+                    }
+                    \cell
+                    {
+                      \paragraph
+                      {
+                         Table in cell: Cell two
+                      }
+                      \textframe
+                      [
+                        WrapFormat
+                        {
+                          Style = Through
+                        }
+                      ]
+                      {
+                        \image("D:\\p\\HtmlToPdf\\PdfizerConsole\\bin\\Debug\\tem\\YRDNYPZBTSGSBQZY.jpg")
+                        [
+                          Height = 80
+                          Width = 80
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+              \paragraph
+              {
+              }
+            }
+          }
+          \cell
+          {
+            1º \bold{row} 2º col
+          }
+        }
+        \row
+        [
+          Height = 42
+        ]
+        {
+          \cell
+          {
+            2º \fontsize(18){row}\fontcolor(Blue){1º} col
+          }
+          \cell
+          {
+            2º row 2 col
+          }
+        }
+      }
+    }
+    \paragraph
+    {
+      \font[Size = 22
+      Bold = true
+      ]{h1 title}\fontsize(18){ h2 title}
+    }
+    \paragraph
+    {
+      \linebreak
+    }
+    \paragraph
+    {
+      \fontsize(16){ h3 title}\fontsize(16){ h3(2) title}\fontsize(14){ h4 title}\fontsize(14){ h4(2) title}\fontsize(12){ h5 title}\fontsize(12){ h5(2) title}\fontsize(10){ h6 title}\fontsize(10){ h6(2) title
+      }\fontsize(10){ h6(3) title}\fontsize(18){ h2(2) title}\fontsize(16){ h3}title\font[Size = 12
+      Color = RGB(78,230,54)
+      ]{in  div}\linebreak
+      \linebreak
+      \fontsize(16){}\fontsize(14){ h4 title}\fontsize(12){ h5 title}
+    }
+    \paragraph
+    {
+      \linebreak
+    }
+    \paragraph
+    {
+      \fontsize(10){ h6 title}\font[Size = 22
+      Bold = true
+      ]{h1 title 6}\fontsize(10){}
+    }
+    \paragraph
+    [
+      Format
+      {
+        Font
+        {
+          Size = 12
+          Italic = true
+          Underline = Single
+          Color = RGB(11,56,97)
+        }
+        Borders
+        {
+          Style = Single
+          Width = 1
+          Color = RGB(102,0,51)
+        }
+      }
+    ]
+    {
+      \font[Size = 12
+      Italic = true
+      Underline = Single
+      Color = RGB(11,56,97)
+      ]{p paragraph}\linebreak
+    }
+    \paragraph
+    {
+      pre paragraph
+    }
+    \paragraph
+    [
+      Format
+      {
+        Font
+        {
+          Size = 20
+          Color = Blue
+        }
+      }
+    ]
+    {
+      \font[Size = 20
+      Color = Blue
+      ]{div paragraph (class=b)}\linebreak
+    }
+    \paragraph
+    {
+    }
+    \paragraph
+    [
+      Format
+      {
+        Alignment = Left
+      }
+    ]
+    {
+      left aligned\linebreak
+    }
+    \paragraph
+    {
+    }
+    \paragraph
+    [
+      Format
+      {
+        Alignment = Right
+      }
+    ]
+    {
+      right aligned\linebreak
+    }
+    \paragraph
+    {
+    }
+    \paragraph
+    [
+      Format
+      {
+        Font
+        {
+          Color = Blue
+        }
+        Alignment = Center
+      }
+    ]
+    {
+      \fontcolor(Blue){centered}\linebreak
+    }
+    \paragraph
+    {
+    }
+    \paragraph
+    [
+      Format
+      {
+        Alignment = Right
+      }
+    ]
+    {
+      paragraph with \bold{bold (b)} elements\linebreak
+    }
+    \paragraph
+    {
+    }
+    \paragraph
+    [
+      Format
+      {
+        Font
+        {
+          Name = "Times New Roman"
+          Size = 20
+          Color = Red
+        }
+      }
+    ]
+    {
+      \font[Name = "Times New Roman"
+      Size = 20
+      Color = Red
+      ]{paragraph }\bold{with}\font[Name = "Times New Roman"
+      Size = 20
+      Color = Red
+      ]{ emphasized (em) elements}\linebreak
+    }
+    \paragraph
+    {
+    }
+    \paragraph
+    [
+      Format
+      {
+        Font
+        {
+          Color = Green
+        }
+      }
+    ]
+    {
+      \fontcolor(Green){paragraph with }\fontcolor(Green){ elements}\linebreak
+    }
+    \paragraph
+    {
+      typewriter (tt)
+    }
+    \paragraph
+    [
+      Format
+      {
+        Font
+        {
+          Size = 12
+          Color = Yellow
+        }
+      }
+    ]
+    {
+      \font[Size = 12
+      Color = Yellow
+      ]{paragraph with }\font[Size = 12
+      Color = Yellow
+      ]{ elements}\linebreak
+    }
+    \paragraph
+    {
+      code (code)
+    }
+    \paragraph
+    {
+      paragraph with span elements (class = em)\linebreak
+    }
+    \paragraph
+    {
+    }
+    \paragraph
+    [
+      Format
+      {
+        Font
+        {
+          Italic = true
+          Underline = Single
+          Color = RGB(11,56,97)
+        }
+        Borders
+        {
+          Style = Single
+          Width = 1
+          Color = RGB(102,0,51)
+        }
+      }
+    ]
+    {
+      \font[Italic = true
+      Underline = Single
+      Color = RGB(11,56,97)
+      ]{paragraph }\linebreak
+       par 2\linebreak
+      \font[Italic = true
+      Underline = Single
+      Color = RGB(11,56,97)
+      ]{ par 1-2 }\linebreak
+    }
+    \paragraph
+    {
+    }
+    \paragraph
+    [
+      Format
+      {
+        ListInfo.ListType = BulletList1
+        ListInfo.NumberPosition = 25
+        ListInfo.ContinuePreviousList = true
+      }
+    ]
+    {
+      Unordered 1
+    }
+    \paragraph
+    [
+      Format
+      {
+        ListInfo.ListType = BulletList1
+        ListInfo.NumberPosition = 25
+        ListInfo.ContinuePreviousList = true
+      }
+    ]
+    {
+      Unordered 2
+    }
+    \paragraph
+    {
+      \linebreak
+    }
+    \paragraph
+    [
+      Format
+      {
+        ListInfo.ListType = BulletList1
+        ListInfo.NumberPosition = 25
+        ListInfo.ContinuePreviousList = true
+      }
+    ]
+    {
+      Ordered 1
+    }
+    \paragraph
+    [
+      Format
+      {
+        ListInfo.ListType = BulletList1
+        ListInfo.NumberPosition = 25
+        ListInfo.ContinuePreviousList = true
+      }
+    ]
+    {
+      Ordered 2
+    }
+    \paragraph
+    {
+      \linebreak
+    }
+    \paragraph
+    [
+      Format
+      {
+        ListInfo.ListType = BulletList1
+        ListInfo.NumberPosition = 25
+        ListInfo.ContinuePreviousList = true
+      }
+    ]
+    {
+      listado \font[Superscript = true
+      ]{2}con\font[Subscript = true
+      ]{2} sub
+    }
+    \paragraph
+    [
+      Format
+      {
+        ListInfo.ListType = BulletList1
+        ListInfo.NumberPosition = 50
+        ListInfo.ContinuePreviousList = true
+      }
+    ]
+    {
+      sub-item 1
+    }
+    \paragraph
+    [
+      Format
+      {
+        ListInfo.ListType = BulletList1
+        ListInfo.NumberPosition = 50
+        ListInfo.ContinuePreviousList = true
+      }
+    ]
+    {
+      sub item 2
+    }
+    \paragraph
+    [
+      Format
+      {
+        ListInfo.ListType = BulletList1
+        ListInfo.NumberPosition = 25
+        ListInfo.ContinuePreviousList = true
+      }
+    ]
+    {
+      ordered item
+    }
+    \paragraph
+    {
+      \linebreak
+    }
+    \paragraph
+    {
+      \image("D:\\p\\HtmlToPdf\\PdfizerConsole\\bin\\Debug\\tem\\DUUDYSWPPDCYJTRH.png")
+      [
+        Height = 80
+        Width = 80
+        LineFormat
+        {
+          Width = 1
+          Color = RGB(102,0,51)
+        }
+      ]
+      \linebreak
+    }
+    \paragraph
+    {
+    }
+    \paragraph
+    {
+    }
+    \paragraph
+    [
+      Format
+      {
+        Font
+        {
+          Size = 20
+          Color = Blue
+        }
+      }
+    ]
+    {
+      \font[Size = 20
+      Color = Blue
+      ]{Hola Mundo}\linebreak
+    }
+    \paragraph
+    {
+    }
+  }
+}

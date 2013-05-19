@@ -1,0 +1,58 @@
+HtmlStyle --> Definir todos los estilos
+
+Prepare Style --> tranforma el stylo web a un estilo propio de la aplicación
+
+HmtlSection -->Define una sección, una sección puede tener x paragrphs
+
+HtmlParagraph --> Define un paragraph, una paragraph tiene un estilo y una lista de elementos
+
+HtmlXXXX(element) --> Define un elemento, un elemento puede tener una lista de mas elementos, tambien tienen un style. Descienden de HTMLItem
+
+HtmlRender --> Pinta en el pdf nuesto objeto (HTML transformado a un objeto propio)
+
+
+Element
+	|
+	|-Stytle
+	|
+	|-Lista de Elements
+					|
+					|-Element|
+					|		 |-...
+					|
+					|-Element|
+					|		 |-...
+					|....
+	
+	Div
+	|
+	|-Style(color, font-size,...)
+	|
+	|-p				Lista de elementos
+	|
+	|-h1
+	|
+	|-span|
+	|	  |-p
+	|...  |
+		  |-div
+		  |...
+		  
+		  
+Implementar
+----------
+HtmlStyle --> para añadir más estilos
+
+Prepare Style --> para tranformar los estilos que añadimos a nuestro objeto
+
+Añadir Html(tipo de elemento) --> para añadir más tipos de objetos que representan a objetos Html (p, span, h1, h2, div,...)
+
+HtmlParagrahp --> el el objeto inicial desde el que cualgan todos los elementos, aqui se lee el html y se separa en nodos,
+ y aqui es donde se tiene que implementar en la función preparenode los diferentes tipos de nodos que se quiera implementar (p, span, h1, h2, div,...)
+ 
+HtmlRender --> Aqui es donde se tranforma nuestro objeto en pdf, se recorre la lista de elementos y los elmentos de los elementos y asi sucesivamente.
+Aqui hay que implementar 2 cosas, los diferentes tipos elementos que añadamos y los direrentes tipos de propiedades en los estilos que añadamos.
+
+RenderStyle --> pinta en el pdf los stilos de los elementos
+ 
+ 

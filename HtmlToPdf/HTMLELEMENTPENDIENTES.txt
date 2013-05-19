@@ -1,0 +1,25 @@
+BIG	Texto más grande 
+BUTTON	Botón
+CAPTION	Encabezado de una tabla
+COL	Columna de una tabla
+COLGROUP	Grupo de columnas de una tabla
+FIELDSET	Grupo de control de fomularios
+HR	Línea horizontal
+I	Texto en itálicas
+INPUT	Entrada de formularios
+LABEL	Etiqueta de un campo de formulario
+LEGEND	Encabezado de un grupo de control
+OPTGROUP	Grupo de opciones
+OPTION	Menú de opciones
+PRE	Texto preformateado 
+Q	Cita corta
+SAMP	Resultado de un ejemplo
+SELECT	Selector de opciones
+SMALL	Texto pequeño 
+STRONG	Enfasis fuerte
+TEXTAREA	Entrada de texto de múltiples líneas
+TFOOT	Pie de una tabla
+TH	Celda de encabezamiento de una tabla
+THEAD	Encabezado de la tabla
+TT	Texto de teletipo
+

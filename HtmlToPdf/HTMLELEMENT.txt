@@ -1,0 +1,77 @@
+A	Enlace de hipertexto o destino de un link NO
+ABBR	Abreviatura NO
+ACRONYM	Acrónimo NO
+ADDRESS	Dirección NO
+AREA	Area de un mapa de imagen NO
+B	Texto en negritas YA
+BASE	URI de base del documento NO
+BDO	Sustitución del algoritmo de bidireccionalidad NO
+BIG	Texto más grande 
+BLOCKQUOTE	Cita de bloque NO
+BODY	Cuerpo del documento OK
+BR	Salto de línea	
+BUTTON	Botón
+CAPTION	Encabezado de una tabla
+CITE	Cita NO
+CODE	Código de computadora NO
+COL	Columna de una tabla
+COLGROUP	Grupo de columnas de una tabla
+DD	Definición de una descripción
+DEL	Texto borrado NO
+DFN	Término definido NO
+DIV	Contenedor genérico a nivel de bloque OK
+DL	Lista de definiciones NO
+DT	Término de una definición NO
+EM	Enfasis NO
+FIELDSET	Grupo de control de fomularios
+FORM	Formulario interactivo 
+H1	Título de nivel 1 YA
+H2	Título de nivel 2 YA
+H3	Título de nivel 3 YA
+H4	Título de nivel 4 YA
+H5	Título de nivel 5 YA
+H6	Título de nivel 6 AY
+HEAD	Encabezado del documento NO
+HR	Línea horizontal
+HTML	Documento HTML NO
+I	Texto en itálicas
+IMG	Imagen YA
+INPUT	Entrada de formularios
+INS	Texto insertado NO
+KBD	Texta a ser ingresado NO
+LABEL	Etiqueta de un campo de formulario
+LEGEND	Encabezado de un grupo de control
+LI	Item de una lista
+LINK	Relaciones del documento NO
+MAP	Mapa de una imagen NO
+META	Metadata NO 
+NOSCRIPT	Contenido alternativo a un script NO
+OBJECT	Objeto
+OL	Lista ordenada
+OPTGROUP	Grupo de opciones
+OPTION	Menú de opciones
+P	Párrafo
+PARAM	Parámetros de un objeto
+PRE	Texto preformateado 
+Q	Cita corta
+SAMP	Resultado de un ejemplo
+SCRIPT	Script ejecutado en la máquina cliente  NO
+SELECT	Selector de opciones
+SMALL	Texto pequeño 
+SPAN	Contenedor genérico a nivel de línea
+STRONG	Enfasis fuerte
+STYLE	Hoja de estilo incrustada
+SUB	Subíndice
+SUP	Superíndice
+TABLE	Tabla
+TBODY	Cuerpo de la tabla NO
+TD	Celda de datos de una tabla
+TEXTAREA	Entrada de texto de múltiples líneas
+TFOOT	Pie de una tabla
+TH	Celda de encabezamiento de una tabla
+THEAD	Encabezado de la tabla
+TITLE	Título del documento
+TR	Fila de una tabla
+TT	Texto de teletipo
+UL	Lista sin ordenar
+VAR	Variable NO

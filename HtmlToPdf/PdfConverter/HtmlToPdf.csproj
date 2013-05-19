@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0CA4FCE0-82D9-4FA7-846B-3F29C1A2DBA9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HtmlToPdf</RootNamespace>
+    <AssemblyName>HtmlToPdf</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MigraDoc.DocumentObjectModel-WPF, Version=1.32.3885.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\WPF\MigraDoc.DocumentObjectModel-WPF.dll</HintPath>
+    </Reference>
+    <Reference Include="MigraDoc.Rendering-WPF, Version=1.32.3885.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\WPF\MigraDoc.Rendering-WPF.dll</HintPath>
+    </Reference>
+    <Reference Include="MigraDoc.RtfRendering-WPF, Version=1.32.3885.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\WPF\MigraDoc.RtfRendering-WPF.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfSharp-WPF, Version=1.32.2608.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\WPF\PdfSharp-WPF.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfSharp.Charting-WPF, Version=1.32.2608.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\WPF\PdfSharp.Charting-WPF.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="css\CssParser.cs" />
+    <Compile Include="css\IValueStyle.cs" />
+    <Compile Include="css\SetStyle.cs" />
+    <Compile Include="css\ValueListStyleTextDecoration.cs" />
+    <Compile Include="css\ValueListStyleType.cs" />
+    <Compile Include="css\ValueStyleAlign.cs" />
+    <Compile Include="css\StyleMeasureElement.cs" />
+    <Compile Include="css\ValueStyle.cs" />
+    <Compile Include="css\ValueStyleBool.cs" />
+    <Compile Include="css\ValueStyleBorderStyle.cs" />
+    <Compile Include="css\ValueStyleColor.cs" />
+    <Compile Include="css\ValueStyleString.cs" />
+    <Compile Include="css\ValueStyleUint.cs" />
+    <Compile Include="htmlElement\HtmlClass.cs" />
+    <Compile Include="htmlElement\HtmlCode.cs" />
+    <Compile Include="htmlElement\HtmlContent.cs" />
+    <Compile Include="htmlElement\HtmlDiv.cs" />
+    <Compile Include="htmlElement\HtmlImg.cs" />
+    <Compile Include="htmlElement\HtmlItem.cs" />
+    <Compile Include="htmlElement\HtmlDoc.cs" />
+    <Compile Include="htmlElement\HtmlLi.cs" />
+    <Compile Include="htmlElement\HtmlList.cs" />
+    <Compile Include="render\RenderHtmlCode.cs" />
+    <Compile Include="render\RenderHtmlLi.cs" />
+    <Compile Include="render\RenderHtmlList.cs" />
+    <Compile Include="render\RenderHtmltd.cs" />
+    <Compile Include="render\RenderHtmltr.cs" />
+    <Compile Include="render\HtmlRender.cs" />
+    <Compile Include="htmlElement\HtmlSection.cs" />
+    <Compile Include="htmlElement\HtmlSpan.cs" />
+    <Compile Include="htmlElement\HtmlStyle.cs" />
+    <Compile Include="htmlElement\HtmlTable.cs" />
+    <Compile Include="htmlElement\HtmlText.cs" />
+    <Compile Include="htmlElement\Iheight.cs" />
+    <Compile Include="htmlElement\IHtmlItem.cs" />
+    <Compile Include="HtmlToPdf.cs" />
+    <Compile Include="css\PrepareHtmlClass.cs" />
+    <Compile Include="css\PrepareStyle.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="render\RenderHtmlContent.cs" />
+    <Compile Include="render\RenderHtmlDiv.cs" />
+    <Compile Include="render\RenderHtmlImg.cs" />
+    <Compile Include="render\RenderHtmlSpan.cs" />
+    <Compile Include="render\RenderHtmlTable.cs" />
+    <Compile Include="render\RenderHtmlText.cs" />
+    <Compile Include="render\RenderStyleFormattedText.cs" />
+    <Compile Include="render\RenderStyle.cs" />
+    <Compile Include="render\RenderStyleImage.cs" />
+    <Compile Include="render\RenderStyleList.cs" />
+    <Compile Include="render\RenderStyleParagraph.cs" />
+    <Compile Include="render\RenderStyleTable.cs" />
+    <Compile Include="render\RenderStyleTd.cs" />
+    <Compile Include="Settings1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings1.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Trazascs.cs" />
+    <Compile Include="ValuesStyleDecimal.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Settings1.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings1.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

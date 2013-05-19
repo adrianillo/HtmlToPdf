@@ -1,0 +1,44 @@
+C:\Documents and Settings\A161323\Desktop\BBBBB\pdf\HtmlToPdf\PdfizerConsole\bin\Debug\PdfizerConsole.exe
+C:\Documents and Settings\A161323\Desktop\BBBBB\pdf\HtmlToPdf\PdfizerConsole\bin\Debug\PdfizerConsole.pdb
+C:\Documents and Settings\A161323\Desktop\BBBBB\pdf\HtmlToPdf\PdfizerConsole\bin\Debug\itextsharp.dll
+C:\Documents and Settings\A161323\Desktop\BBBBB\pdf\HtmlToPdf\PdfizerConsole\bin\Debug\Pdfizer.dll
+C:\Documents and Settings\A161323\Desktop\BBBBB\pdf\HtmlToPdf\PdfizerConsole\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Documents and Settings\A161323\Desktop\BBBBB\pdf\HtmlToPdf\PdfizerConsole\bin\Debug\NTidy.dll
+C:\Documents and Settings\A161323\Desktop\BBBBB\pdf\HtmlToPdf\PdfizerConsole\bin\Debug\Pdfizer.pdb
+C:\Documents and Settings\A161323\Desktop\BBBBB\pdf\HtmlToPdf\PdfizerConsole\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\A161323\Desktop\BBBBB\pdf\HtmlToPdf\PdfizerConsole\obj\Debug\PdfizerConsole.exe
+C:\Documents and Settings\A161323\Desktop\BBBBB\pdf\HtmlToPdf\PdfizerConsole\obj\Debug\PdfizerConsole.pdb
+D:\p\HtmlToPdf\PdfizerConsole\bin\Debug\PdfizerConsole.exe
+D:\p\HtmlToPdf\PdfizerConsole\bin\Debug\PdfizerConsole.pdb
+D:\p\HtmlToPdf\PdfizerConsole\bin\Debug\MigraDoc.DocumentObjectModel-WPF.dll
+D:\p\HtmlToPdf\PdfizerConsole\bin\Debug\MigraDoc.Rendering-WPF.dll
+D:\p\HtmlToPdf\PdfizerConsole\bin\Debug\MigraDoc.RtfRendering-WPF.dll
+D:\p\HtmlToPdf\PdfizerConsole\bin\Debug\PdfSharp.Charting-WPF.dll
+D:\p\HtmlToPdf\PdfizerConsole\bin\Debug\PdfSharp-WPF.dll
+D:\p\HtmlToPdf\PdfizerConsole\bin\Debug\de\MigraDoc.RtfRendering-WPF.resources.dll
+D:\p\HtmlToPdf\PdfizerConsole\bin\Debug\de\MigraDoc.Rendering-WPF.resources.dll
+D:\p\HtmlToPdf\PdfizerConsole\bin\Debug\de\PdfSharp.Charting-WPF.resources.dll
+D:\p\HtmlToPdf\PdfizerConsole\bin\Debug\de\MigraDoc.DocumentObjectModel-WPF.resources.dll
+D:\p\HtmlToPdf\PdfizerConsole\bin\Debug\de\PdfSharp-WPF.resources.dll
+D:\p\HtmlToPdf\PdfizerConsole\obj\Debug\ResolveAssemblyReference.cache
+D:\p\HtmlToPdf\PdfizerConsole\obj\Debug\PdfizerConsole.exe
+D:\p\HtmlToPdf\PdfizerConsole\obj\Debug\PdfizerConsole.pdb
+D:\p\HtmlToPdf\PdfizerConsole\bin\Debug\HtmlToPdf.dll
+D:\p\HtmlToPdf\PdfizerConsole\bin\Debug\HtmlToPdf.pdb
+E:\proyectos\HtmlToPdf\PdfizerConsole\obj\Debug\PdfizerConsole.exe
+E:\proyectos\HtmlToPdf\PdfizerConsole\obj\Debug\PdfizerConsole.pdb
+E:\proyectos\HtmlToPdf\PdfizerConsole\bin\Debug\PdfizerConsole.exe
+E:\proyectos\HtmlToPdf\PdfizerConsole\bin\Debug\PdfizerConsole.pdb
+E:\proyectos\HtmlToPdf\PdfizerConsole\bin\Debug\HtmlToPdf.dll
+E:\proyectos\HtmlToPdf\PdfizerConsole\bin\Debug\MigraDoc.DocumentObjectModel-WPF.dll
+E:\proyectos\HtmlToPdf\PdfizerConsole\bin\Debug\MigraDoc.Rendering-WPF.dll
+E:\proyectos\HtmlToPdf\PdfizerConsole\bin\Debug\MigraDoc.RtfRendering-WPF.dll
+E:\proyectos\HtmlToPdf\PdfizerConsole\bin\Debug\PdfSharp-WPF.dll
+E:\proyectos\HtmlToPdf\PdfizerConsole\bin\Debug\PdfSharp.Charting-WPF.dll
+E:\proyectos\HtmlToPdf\PdfizerConsole\bin\Debug\HtmlToPdf.pdb
+E:\proyectos\HtmlToPdf\PdfizerConsole\bin\Debug\de\MigraDoc.DocumentObjectModel-WPF.resources.dll
+E:\proyectos\HtmlToPdf\PdfizerConsole\bin\Debug\de\MigraDoc.Rendering-WPF.resources.dll
+E:\proyectos\HtmlToPdf\PdfizerConsole\bin\Debug\de\MigraDoc.RtfRendering-WPF.resources.dll
+E:\proyectos\HtmlToPdf\PdfizerConsole\bin\Debug\de\PdfSharp-WPF.resources.dll
+E:\proyectos\HtmlToPdf\PdfizerConsole\bin\Debug\de\PdfSharp.Charting-WPF.resources.dll
+E:\proyectos\HtmlToPdf\PdfizerConsole\obj\Debug\PdfizerConsole.csprojResolveAssemblyReference.cache
