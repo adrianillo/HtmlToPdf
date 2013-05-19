@@ -14,3 +14,17 @@ E:\proyectos\HtmlToPdf\PdfizerConsole\bin\Release\de\PdfSharp.Charting-WPF.resou
 E:\proyectos\HtmlToPdf\PdfizerConsole\obj\Release\PdfizerConsole.csprojResolveAssemblyReference.cache
 E:\proyectos\HtmlToPdf\PdfizerConsole\obj\Release\PdfizerConsole.exe
 E:\GIT\htmltopdf\HtmlToPdf\PdfizerConsole\obj\Release\PdfizerConsole.exe
+E:\GIT\htmltopdf\HtmlToPdf\PdfizerConsole\bin\Release\PdfizerConsole.exe
+E:\GIT\htmltopdf\HtmlToPdf\PdfizerConsole\bin\Release\HtmlToPdf.dll
+E:\GIT\htmltopdf\HtmlToPdf\PdfizerConsole\bin\Release\MigraDoc.DocumentObjectModel-WPF.dll
+E:\GIT\htmltopdf\HtmlToPdf\PdfizerConsole\bin\Release\MigraDoc.Rendering-WPF.dll
+E:\GIT\htmltopdf\HtmlToPdf\PdfizerConsole\bin\Release\MigraDoc.RtfRendering-WPF.dll
+E:\GIT\htmltopdf\HtmlToPdf\PdfizerConsole\bin\Release\PdfSharp-WPF.dll
+E:\GIT\htmltopdf\HtmlToPdf\PdfizerConsole\bin\Release\PdfSharp.Charting-WPF.dll
+E:\GIT\htmltopdf\HtmlToPdf\PdfizerConsole\bin\Release\HtmlToPdf.pdb
+E:\GIT\htmltopdf\HtmlToPdf\PdfizerConsole\bin\Release\de\MigraDoc.DocumentObjectModel-WPF.resources.dll
+E:\GIT\htmltopdf\HtmlToPdf\PdfizerConsole\bin\Release\de\MigraDoc.Rendering-WPF.resources.dll
+E:\GIT\htmltopdf\HtmlToPdf\PdfizerConsole\bin\Release\de\MigraDoc.RtfRendering-WPF.resources.dll
+E:\GIT\htmltopdf\HtmlToPdf\PdfizerConsole\bin\Release\de\PdfSharp-WPF.resources.dll
+E:\GIT\htmltopdf\HtmlToPdf\PdfizerConsole\bin\Release\de\PdfSharp.Charting-WPF.resources.dll
+E:\GIT\htmltopdf\HtmlToPdf\PdfizerConsole\obj\Release\PdfizerConsole.csprojResolveAssemblyReference.cache
