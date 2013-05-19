@@ -11,7 +11,7 @@ namespace Example1
         static void Main(string[] args)
         {
             StringWriter sb = new StringWriter();
-
+             
             sb.WriteLine("<html>");
             sb.WriteLine("<head>");
             sb.WriteLine("<style type='text/css'>");
