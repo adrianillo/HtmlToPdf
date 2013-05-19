@@ -8,7 +8,7 @@ namespace Trazas
     public enum Niveles { N0 = 0, N1 = 1 }
     public enum NivelesError { Error = 1, Traza = 2 }
     public class Traza
-    {
+    {//aa
         public static void Tracea(string mensaje, NivelesError nivelError)
         {
             int nivel = -1;
