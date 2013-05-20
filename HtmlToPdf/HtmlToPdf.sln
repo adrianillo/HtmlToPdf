@@ -1,8 +1,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PdfizerConsole", "PdfizerConsole\PdfizerConsole.csproj", "{BBF6F16F-D518-40FE-948A-4E943B635E7B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PdfLauncher", "PdfLauncher\PdfLauncher.csproj", "{BBF6F16F-D518-40FE-948A-4E943B635E7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlToPdf", "PdfConverter\HtmlToPdf.csproj", "{0CA4FCE0-82D9-4FA7-846B-3F29C1A2DBA9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlToPdf", "HtmlToPdf\HtmlToPdf.csproj", "{0CA4FCE0-82D9-4FA7-846B-3F29C1A2DBA9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
