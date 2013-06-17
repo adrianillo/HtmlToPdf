@@ -134,7 +134,7 @@
     <Compile Include="AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Class1.cs">
+    <Compile Include="PdfLauncher.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

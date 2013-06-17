@@ -158,7 +158,10 @@ namespace HtmlToPdf
            }
           
         }
-
+        public void Generate(string routepdf )
+        {           
+            Generate(routepdf,  Path.ChangeExtension(routepdf, "mdddl"));
+        }
         public void Generate(string routepdf, string title, string subject, string author, string mdddl)
         {
             doc.Info.Title = title;

@@ -5,7 +5,7 @@ using HtmlToPdf;
 using System.Collections.Generic;
 namespace Example1
 {
-    class Class1
+    class PdfLauncher
     {        
         [STAThread]
         static void Main(string[] args)
@@ -105,32 +105,32 @@ namespace Example1
             HtmlToPdf.HtmlToPdf docHtml = new HtmlToPdf.HtmlToPdf();
             try
             {
-              /*  HtmlSection sec1 = docHtml.AddSection("Section 1");      
+                HtmlSection sec1 = docHtml.AddSection("Section 1");      
                 List<HtmlClass> ListCss = new List<HtmlClass>();
                 HtmlClass c1 = new CssParser().Parser(stl.ToString());
                 c1.IdHtmlClass = "sss";
                 ListCss.Add(c1);
-                HtmlDoc html = docHtml.AddHtml(sb.ToString(), ListCss, sec1);*/
+                HtmlDoc html = docHtml.AddHtml(sb.ToString(), ListCss, sec1);
 
                 HtmlSection sec2 = docHtml.AddSection("Section 2");
-               // docHtml.AddHtml(sb.ToString(), sec2);
+                docHtml.AddHtml(sb.ToString(), sec2);
 
-                string htmldoc="<html><head><body><p style='color:blue;font-size:20px;' >";
-                htmldoc+="Hola Mundo</p></body></head></html>";
+                string htmldoc = "<html><head><body><p style='color:blue;font-size:20px;' >";
+                htmldoc += "Hola Mundo</p></body></head></html>";
 
                 htmldoc = "<html xmlns='http://www.w3.org/1999/xhtml'><head><title /></head><body><div style='clear: both'><p style='font: 13px/20.79px sans-serif, Arial, Verdana, Trebuchet MS; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; font-size-adjust: none; font-stretch: normal; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;'><span style='color: rgb(0, 0, 0);'><span style='font-size: 18px;'><span style='font-family: verdana, geneva, sans-serif;'>Requirimientos</span></span></span></p>";
 
-htmldoc+="<p style='font: 13px/20.79px sans-serif, Arial, Verdana, Trebuchet MS; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; font-size-adjust: none; font-stretch: normal; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;'> </p>";
+                htmldoc += "<p style='font: 13px/20.79px sans-serif, Arial, Verdana, Trebuchet MS; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; font-size-adjust: none; font-stretch: normal; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;'> </p>";
 
-htmldoc+="<ul style='font: 14px/22px Open Sans, Arial Helvetica, sans-serif; margin: 0px; padding: 0px 0px 0px 1.5em; border: 0px currentColor; color: rgb(70, 70, 70); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; vertical-align: baseline; white-space: normal; font-size-adjust: none; font-stretch: normal; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;'>";
-	htmldoc+="<li style='margin: 0px 0px 0.5em; padding: 0px; border: 0px currentColor; line-height: inherit; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; vertical-align: baseline;'><span style='color: rgb(0, 0, 0);'><span style='font-size: 14px;'><span style='font-family: verdana, geneva, sans-serif;'>jQuery 1.4.x o superior</span></span></span></li>";
-htmldoc+="	<li style='margin: 0px 0px 0.5em; padding: 0px; border: 0px currentColor; line-height: inherit; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; vertical-align: baseline;'><span style='color: rgb(0, 0, 0);'><span style='font-size: 14px;'><span style='font-family: verdana, geneva, sans-serif;'>Un servidor capaz de analizar PHP, ASP.Net, JSP, o un lenguaje similar del lado del servidor</span></span></span></li>";
-htmldoc += "</ul>";
-htmldoc+="</div></body></html>";
+                htmldoc += "<ul style='font: 14px/22px Open Sans, Arial Helvetica, sans-serif; margin: 0px; padding: 0px 0px 0px 1.5em; border: 0px currentColor; color: rgb(70, 70, 70); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; vertical-align: baseline; white-space: normal; font-size-adjust: none; font-stretch: normal; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;'>";
+                htmldoc += "<li style='margin: 0px 0px 0.5em; padding: 0px; border: 0px currentColor; line-height: inherit; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; vertical-align: baseline;'><span style='color: rgb(0, 0, 0);'><span style='font-size: 14px;'><span style='font-family: verdana, geneva, sans-serif;'>jQuery 1.4.x o superior</span></span></span></li>";
+                htmldoc += "	<li style='margin: 0px 0px 0.5em; padding: 0px; border: 0px currentColor; line-height: inherit; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; vertical-align: baseline;'><span style='color: rgb(0, 0, 0);'><span style='font-size: 14px;'><span style='font-family: verdana, geneva, sans-serif;'>Un servidor capaz de analizar PHP, ASP.Net, JSP, o un lenguaje similar del lado del servidor</span></span></span></li>";
+                htmldoc += "</ul>";
+                htmldoc += "</div></body></html>";
 
                 docHtml.AddHtml(sb.ToString(), sec2);
 
-                docHtml.Generate("c:\\test.pdf", "e:/aa.mdddl");
+                docHtml.Generate("e:\\test.pdf");
               
             }
             catch (Exception ex)
