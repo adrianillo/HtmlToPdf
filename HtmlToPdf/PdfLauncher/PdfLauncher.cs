@@ -38,9 +38,9 @@ namespace Example1
             sb.WriteLine("<p class='clas1'>Example 1</p>");
             sb.WriteLine("<table class='punteado'><tr><td> <table style='background-color:yellow;border-width: 1px;width:250px;height:200px;'>");
             sb.WriteLine("<tr><td class='class2'> Table in cell: <p>Cell one</p></td><td><img style='width:80px;height:80px;'");
-            sb.WriteLine("src='http://db.tt/5v9AO20p'/> Table in cell: Cell two</td></tr></table>");
-            sb.WriteLine("</td><td>1บ <b>row</b> 2บ col</td></tr><tr><td style='text-align:right'>2บ <h2>row</h2>");
-            sb.WriteLine("<span style='color:blue;'>1บ</span> col</td><td>2บ row 2 col</td></tr></table>");
+            sb.WriteLine("src='https://dl.dropboxusercontent.com/s/576ine05leucgcn/joaquin%20sabina%20caricatura.jpg?dl=0'/> Table in cell: Cell two</td></tr></table>");
+            sb.WriteLine("</td><td>1ยบ <b>row</b> 2ยบ col</td></tr><tr><td style='text-align:right'>2ยบ <h2>row</h2>");
+            sb.WriteLine("<span style='color:blue;'>1ยบ</span> col</td><td>2ยบ row 2 col</td></tr></table>");
             sb.WriteLine("<h1 id='search-box'>h1 title</h1>");
             sb.WriteLine("<br/>");
             sb.WriteLine("<h2> h2 title</h2>");
@@ -118,7 +118,7 @@ namespace Example1
                 string htmldoc = "<html><head><body><p style='color:blue;font-size:20px;' >";
                 htmldoc += "Hola Mundo</p></body></head></html>";
                 htmldoc = "<html xmlns='http://www.w3.org/1999/xhtml'><head><title /></head><body><div style='clear: both'><p style='font: 13px/20.79px sans-serif, Arial, Verdana, Trebuchet MS; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; font-size-adjust: none; font-stretch: normal; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;'><span style='color: rgb(0, 0, 0);'><span style='font-size: 18px;'><span style='font-family: verdana, geneva, sans-serif;'>Requirimientos</span></span></span></p>";
-                htmldoc += "<p style='font: 13px/20.79px sans-serif, Arial, Verdana, Trebuchet MS; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; font-size-adjust: none; font-stretch: normal; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;'> </p>";
+                htmldoc += "<p style='font: 13px/20.79px sans-serif, Arial, Verdana, Trebuchet MS; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; font-size-adjust: none; font-stretch: normal; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;'>ย </p>";
                 htmldoc += "<ul style='font: 14px/22px Open Sans, Arial Helvetica, sans-serif; margin: 0px; padding: 0px 0px 0px 1.5em; border: 0px currentColor; color: rgb(70, 70, 70); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; vertical-align: baseline; white-space: normal; font-size-adjust: none; font-stretch: normal; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;'>";
                 htmldoc += "<li style='margin: 0px 0px 0.5em; padding: 0px; border: 0px currentColor; line-height: inherit; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; vertical-align: baseline;'><span style='color: rgb(0, 0, 0);'><span style='font-size: 14px;'><span style='font-family: verdana, geneva, sans-serif;'>jQuery 1.4.x o superior</span></span></span></li>";
                 htmldoc += "	<li style='margin: 0px 0px 0.5em; padding: 0px; border: 0px currentColor; line-height: inherit; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; vertical-align: baseline;'><span style='color: rgb(0, 0, 0);'><span style='font-size: 14px;'><span style='font-family: verdana, geneva, sans-serif;'>Un servidor capaz de analizar PHP, ASP.Net, JSP, o un lenguaje similar del lado del servidor</span></span></span></li>";
